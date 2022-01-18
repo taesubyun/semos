@@ -1,4 +1,5 @@
 import '../App.css';
+import styled from 'styled-components';
 import Content from './Content';
 
 const Section = () => {
@@ -15,19 +16,17 @@ const Section = () => {
                             </a>
                         </div>
                     </div>
-                    <div
-                        className='semos_p'
-                        style={{
-                            width: '100%',
-                            height: '250px',
-                        }}
-                    >
+                    <SectionContainer>
                         <Content />
-                    </div>
+                    </SectionContainer>
                 </header>
             </section>
         </div>
     );
 };
-
 export default Section;
+
+const SectionContainer = styled.div`
+    width: 100%;
+    height: 250px;
+`;
