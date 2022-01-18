@@ -25,14 +25,14 @@ const HeaderWrap = styled.header`
 `;
 
 const HeaderLeft = styled.div`
-    flexbasis: 40%;
+    flex-basis: 40%;
 `;
 
 const HeaderText = styled.div`
     width: 100%;
 `;
 const HeaderRight = styled.div`
-    flexbasis: 60%;
+    flex-basis: 60%;
     overflow: auto;
 `;
 const HeaderInput = styled.input`
