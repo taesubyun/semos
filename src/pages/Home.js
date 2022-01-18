@@ -1,9 +1,9 @@
 import Section from '../Components/Section';
-
+import Header from '../Components/Header';
 const Home = () => {
     return (
         <div>
-            HOME
+            <Header />
             <Section />
         </div>
     );
