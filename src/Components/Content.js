@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import Carousel from './Carousel';
+// import MoreInfo from './MoreInfo';
+// 더보기  - MoreInfo 컴포넌트 추가 예정
 
 const Content = () => {
     const [partners, setPartners] = useState([]);
