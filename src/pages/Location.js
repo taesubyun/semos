@@ -1,5 +1,13 @@
+import HeaderLoca from '../Components/HeaderLoca';
+import SectionLoca from '../Components/SectionLoc';
+
 const Location = () => {
-    return <div>이 페이지는 로케이션</div>;
+    return (
+        <>
+            <HeaderLoca />
+            <SectionLoca />
+        </>
+    );
 };
 
 export default Location;
