@@ -2,179 +2,181 @@ const SectionLoc = () => {
     return (
         <div
             style={{
-                display: 'flex',
-                paddingTop: '20px',
+                // display: 'flex',
+                padding: '10px 10px',
+                boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
             }}
         >
-            <div
-                style={{
-                    width: '130px',
-                    height: '100%',
-
-                    boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
-                }}
-            >
+            <div className='location_content_left'>
                 <div
                     style={{
-                        fontSize: '20px',
-                        padding: '10px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
+                        width: '130px',
+                        height: '100%',
+                        boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
                     }}
                 >
-                    <a
-                        href=''
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '10px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        서울
-                    </a>
-                </div>
-                <div
-                    style={{
-                        fontSize: '20px',
-                        padding: '20px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
-                    }}
-                >
-                    <a
-                        href=''
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            서울
+                        </a>
+                    </div>
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '20px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        인천
-                    </a>
-                </div>
-                <div
-                    style={{
-                        fontSize: '20px',
-                        padding: '20px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
-                    }}
-                >
-                    <a
-                        href=''
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            인천
+                        </a>
+                    </div>
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '20px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        대구
-                    </a>
-                </div>
-                <div
-                    style={{
-                        fontSize: '20px',
-                        padding: '20px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
-                    }}
-                >
-                    <a
-                        href=''
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            대구
+                        </a>
+                    </div>
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '20px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        대전
-                    </a>
-                </div>
-                <div
-                    style={{
-                        fontSize: '20px',
-                        padding: '20px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
-                    }}
-                >
-                    <a
-                        href=''
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            대전
+                        </a>
+                    </div>
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '20px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        경남
-                    </a>
-                </div>
-                <div
-                    style={{
-                        fontSize: '20px',
-                        padding: '20px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
-                    }}
-                >
-                    <a
-                        href=''
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            경남
+                        </a>
+                    </div>
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '20px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        경북
-                    </a>
-                </div>
-                <div
-                    style={{
-                        fontSize: '20px',
-                        padding: '20px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
-                    }}
-                >
-                    <a
-                        href=''
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            경북
+                        </a>
+                    </div>
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '20px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        전북
-                    </a>
-                </div>
-                <div
-                    style={{
-                        fontSize: '20px',
-                        padding: '20px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
-                    }}
-                >
-                    <a
-                        href=''
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            전북
+                        </a>
+                    </div>
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '20px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        전주
-                    </a>
-                </div>
-                <div
-                    style={{
-                        fontSize: '20px',
-                        padding: '20px 0',
-                        textAlign: 'center',
-                        background: '#ececec',
-                    }}
-                >
-                    <a
-                        href=''
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            전주
+                        </a>
+                    </div>
+                    <div
                         style={{
-                            textDecorationLine: 'none',
-                            color: 'black',
+                            fontSize: '20px',
+                            padding: '20px 0',
+                            textAlign: 'center',
+                            background: '#ececec',
                         }}
                     >
-                        제주
-                    </a>
+                        <a
+                            href=''
+                            style={{
+                                textDecorationLine: 'none',
+                                color: 'black',
+                            }}
+                        >
+                            제주
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
