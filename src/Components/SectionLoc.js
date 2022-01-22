@@ -1,3 +1,5 @@
+import styled from 'styled-components';
+
 const SectionLoc = () => {
     return (
         <div
@@ -6,6 +8,7 @@ const SectionLoc = () => {
                 padding: '10px 10px',
                 marginTop: '7px',
                 boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
+                borderRadius: '15px',
             }}
         >
             <div className='location_content_left'>
