@@ -39,7 +39,8 @@ export default SectionLoc;
 
 const SectionLocContainer = styled.div`
     display: flex;
-    padding: 10px 10px;
+    height: 30vw;
+    padding: 7px 7px;
     margin-top: 25px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 15px;
@@ -48,7 +49,7 @@ const SectionLocContainer = styled.div`
 const LeftContent = styled.div``;
 
 const LeftContentBox = styled.div`
-    width: 100px;
+    width: 110px;
     height: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
