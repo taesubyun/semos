@@ -19,7 +19,7 @@ export default HeaderLoca;
 const LocaContainer = styled.div`
     width: 100%;
     display: flex;
-    padding: 25px 0;
+    padding: 20px 0;
     font-size: 20px;
     border-bottom: 1px solid #e2e2e2;
 `;
