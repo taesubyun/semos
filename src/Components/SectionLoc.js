@@ -2,8 +2,9 @@ const SectionLoc = () => {
     return (
         <div
             style={{
-                // display: 'flex',
+                display: 'flex',
                 padding: '10px 10px',
+                marginTop: '7px',
                 boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
             }}
         >
@@ -17,7 +18,7 @@ const SectionLoc = () => {
                 >
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '10px 0',
                             textAlign: 'center',
                             background: '#ececec',
@@ -35,7 +36,7 @@ const SectionLoc = () => {
                     </div>
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '20px 0',
                             textAlign: 'center',
                             background: '#ececec',
@@ -53,7 +54,7 @@ const SectionLoc = () => {
                     </div>
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '20px 0',
                             textAlign: 'center',
                             background: '#ececec',
@@ -71,7 +72,7 @@ const SectionLoc = () => {
                     </div>
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '20px 0',
                             textAlign: 'center',
                             background: '#ececec',
@@ -89,7 +90,7 @@ const SectionLoc = () => {
                     </div>
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '20px 0',
                             textAlign: 'center',
                             background: '#ececec',
@@ -107,7 +108,7 @@ const SectionLoc = () => {
                     </div>
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '20px 0',
                             textAlign: 'center',
                             background: '#ececec',
@@ -125,7 +126,7 @@ const SectionLoc = () => {
                     </div>
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '20px 0',
                             textAlign: 'center',
                             background: '#ececec',
@@ -143,7 +144,7 @@ const SectionLoc = () => {
                     </div>
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '20px 0',
                             textAlign: 'center',
                             background: '#ececec',
@@ -161,7 +162,7 @@ const SectionLoc = () => {
                     </div>
                     <div
                         style={{
-                            fontSize: '20px',
+                            fontSize: '15px',
                             padding: '20px 0',
                             textAlign: 'center',
                             background: '#ececec',
